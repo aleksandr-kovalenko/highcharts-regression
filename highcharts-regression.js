@@ -394,7 +394,7 @@
             var c = [];
             for (var j = 0; j < k; j++) {
                 for (var l = 0, len = data.length; l < len; l++) {
-                    if (data[l][1]) {
+                    if (data[l][1] != null) {
                         b += Math.pow(data[l][0], i + j);
                     }
                 }
